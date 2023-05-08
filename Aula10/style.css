@@ -1,0 +1,74 @@
+body{
+	background-color: grey;
+}
+ h1{
+ 	text-align: center;
+ }
+h2 {
+	text-align: center;
+}
+p{
+	text-align: justify;
+}
+
+
+ /* menu Principal horizontal*/
+nav{
+	background-color: black;
+	padding: 1px;
+}
+
+.dp-menu ul{                            
+	padding: 0;
+	background-color: black;
+	border: 1px solid black;
+      border-radius: 10px;
+      -moz-border-radius: 5px;
+	display: flex;
+	justify-content: center;x
+}
+
+.dp-menu ul li{
+	display: inline;
+	position: relative;
+}
+
+.dp-menu ul li a{
+	color: white;
+	text-decoration: none;
+	font-size: 10;
+	font: arial;
+	padding: 10px;
+	transition: background .7s;
+}
+
+.dp-menu ul li a:hover{
+	background-color: #1C1C1C;
+
+}
+
+      /* sub menu */
+
+.dp-menu ul ul{
+	display: none;
+	position: absolute;	
+	left: 0;
+}
+
+.dp-menu ul li:hover ul{
+	display: block;
+
+}
+
+.dp-menu ul ul{
+	width: 115px;
+}
+
+.dp-menu ul ul li a{
+	display: block;
+	border: 1px solid black;
+	border: 1px solid black;
+      border-radius: 10px;
+      -moz-border-radius: 5px;
+}
+                
